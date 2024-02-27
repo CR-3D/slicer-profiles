@@ -1,0 +1,138 @@
+{
+   "bed_custom_model" : "C:\\\\Users\\\\chop8\\\\AppData\\\\Roaming\\\\PrusaSlicer\\\\vendor\\\\CR3D\\\\PrintBed_I655.stl",
+   "bed_custom_texture" : "",
+   "before_layer_change_gcode" : [
+      ""
+   ],
+   "change_filament_gcode" : [
+      ""
+   ],
+   "default_filament_profile" : "",
+   "default_print_profile" : "",
+   "deretraction_speed" : "0",
+   "from" : "User",
+   "gcode_flavor" : "reprapfirmware",
+   "inherits" : "",
+   "is_custom_defined" : "1",
+   "layer_change_gcode" : [
+      ""
+   ],
+   "machine_end_gcode" : [
+      "M0 ; Turn off everything\n\n"
+   ],
+   "machine_max_acceleration_e" : [
+      "10000",
+      "5000"
+   ],
+   "machine_max_acceleration_extruding" : [
+      "1500",
+      "1250"
+   ],
+   "machine_max_acceleration_retracting" : [
+      "1500",
+      "1250"
+   ],
+   "machine_max_acceleration_travel" : [
+      "1500",
+      "1250"
+   ],
+   "machine_max_acceleration_x" : [
+      "9000",
+      "1000"
+   ],
+   "machine_max_acceleration_y" : [
+      "9000",
+      "1000"
+   ],
+   "machine_max_acceleration_z" : [
+      "500",
+      "200"
+   ],
+   "machine_max_jerk_e" : [
+      "2.5",
+      "2.5"
+   ],
+   "machine_max_jerk_x" : [
+      "10",
+      "10"
+   ],
+   "machine_max_jerk_y" : [
+      "10",
+      "10"
+   ],
+   "machine_max_jerk_z" : [
+      "0.2",
+      "0.4"
+   ],
+   "machine_max_speed_e" : [
+      "120",
+      "120"
+   ],
+   "machine_max_speed_x" : [
+      "500",
+      "200"
+   ],
+   "machine_max_speed_y" : [
+      "500",
+      "200"
+   ],
+   "machine_max_speed_z" : [
+      "12",
+      "12"
+   ],
+   "machine_min_extruding_rate" : [
+      "0",
+      "0"
+   ],
+   "machine_min_travel_rate" : [
+      "0",
+      "0"
+   ],
+   "machine_pause_gcode" : [
+      "@pause"
+   ],
+   "machine_start_gcode" : [
+      "M98 P\"start.g\"\n@call PrintStartScript\n"
+   ],
+   "max_layer_height" : "0",
+   "min_layer_height" : "0.1",
+   "name" : "CR-3D I655",
+   "nozzle_diameter" : "0.4",
+   "print_host" : "",
+   "printable_area" : [
+      "0x0",
+      "590x0",
+      "590x490",
+      "0x490"
+   ],
+   "printable_height" : "500",
+   "printer_notes" : [
+      ""
+   ],
+   "printer_settings_id" : "CR-3D I655",
+   "printer_technology" : "FFF",
+   "printer_variant" : "Standard 0.4",
+   "retract_before_wipe" : "0%",
+   "retract_length_toolchange" : "10",
+   "retract_restart_extra" : "0",
+   "retract_restart_extra_toolchange" : "0",
+   "retract_when_changing_layer" : "0",
+   "retraction_length" : "2",
+   "retraction_minimum_travel" : "2",
+   "retraction_speed" : "80",
+   "silent_mode" : "1",
+   "single_extruder_multi_material" : "0",
+   "template_custom_gcode" : [
+      ""
+   ],
+   "thumbnails" : [
+      "16x16/PNG",
+      " 220x124/PNG"
+   ],
+   "thumbnails_format" : "PNG",
+   "use_firmware_retraction" : "0",
+   "use_relative_e_distances" : "1",
+   "version" : "1.6.0.0",
+   "wipe" : "0",
+   "z_hop" : "0.2"
+}
